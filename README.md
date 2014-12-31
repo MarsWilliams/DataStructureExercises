@@ -1,0 +1,1 @@
+These exercises represent my efforts to understand data structures and related algorithms
