@@ -2,7 +2,7 @@ var binarySearch = function(pool, num) {
 	var min = 1;
 	var max = pool;
 	var tries = 1;
-	while (guess != num) {
+	while (guess !== num) {
 		var guess = Math.floor((min + max) / 2);
 		tries++;
 		if (guess === num) {
